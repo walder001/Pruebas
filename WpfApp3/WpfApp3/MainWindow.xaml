@@ -1,0 +1,25 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="{x:Null}">
+    <Grid>
+        <Rectangle Fill="#FF13ECCE" HorizontalAlignment="Left" Height="225.757" Margin="32.364,42.697,0,0" Stroke="Black" VerticalAlignment="Top" Width="448.485"/>
+        <Rectangle Fill="#FF26EEF7" HorizontalAlignment="Left" Height="157.576" Margin="86.91,76.03,0,0" Stroke="Black" VerticalAlignment="Top" Width="333.333"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="190.999,106.767,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFBF7F7"/>
+        <Label Content="Nombre:l" HorizontalAlignment="Left" Margin="126.645,102.767,0,0" VerticalAlignment="Top" AutomationProperties.IsRowHeader="True">
+            <AutomationProperties.LabeledBy>
+                <UIElement/>
+            </AutomationProperties.LabeledBy>
+        </Label>
+        <Button Content="New" HorizontalAlignment="Left" Margin="203.12,171.482,0,0" VerticalAlignment="Top" Width="75" AutomationProperties.HelpText="help"/>
+        <RadioButton Content="Hombre" HorizontalAlignment="Left" Margin="185,140,0,0" VerticalAlignment="Top"/>
+        
+       <RadioButton Content="Mujer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265.076,140.04,0,0"/>
+    </Grid>
+    text box1.text=""
+
+</Window>
